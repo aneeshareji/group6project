@@ -1,0 +1,64 @@
+/* nav{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        padding-top: 70px;
+        
+        right: 90px;
+        padding-left: 500px;
+      
+
+        margin-left: 200px;
+        align-items:end;
+        
+        
+        
+}
+span{
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 5px;
+    border-radius: 2px solid;
+    background-color: rgb(8, 41, 46);
+    
+    
+
+}
+
+a{
+    margin-top: 40px;
+    padding: 10px;
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    background-color: chocolate;
+} */
+
+
+nav {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    height: 60px;
+    padding-top: 50px;
+    padding-left: 500px; /* Adjust as needed */
+    margin-left: 50px;
+    background-color: #fff; /* Optional: Background color for the navbar */
+}
+
+nav span {
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 5px;
+    border-radius: 2px; /* This should be '2px' instead of '2px solid' */
+    background-color: rgb(8, 41, 46);
+    color: #fff; /* Text color */
+}
+
+nav a {
+    margin-top: 40px;
+    padding: 10px;
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    background-color: chocolate;
+}

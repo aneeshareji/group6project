@@ -1,0 +1,77 @@
+/* 
+
+   .login-section{
+    height: 200vh;
+   }
+
+   .login-card{
+    width: 450px;
+   } */
+
+/* 
+   .login-section {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.login-card {
+    width: 450px;
+    
+} */
+
+.login-section {
+   height: 100vh; /* Full viewport height */
+   display: flex;
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+   background-color: #f0f0f0; /* Light gray background color */
+}
+
+.login-card {
+   width: 450px;
+   padding: 20px;
+   background-color: #ffffff; /* White background color */
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Example styles for form elements inside .login-card */
+.login-card form {
+   display: flex;
+   flex-direction: column;
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"] {
+   margin-bottom: 10px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 14px;
+}
+
+.login-card input[type="submit"] {
+   padding: 10px;
+   background-color: #4CAF50; /* Green submit button */
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+/* Additional background color for login section */
+.login-section {
+   background-color: #96a1d1; /* Light gray background color */
+}
+
+
+
+
+
+
+      
+
